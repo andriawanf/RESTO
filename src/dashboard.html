@@ -22,10 +22,11 @@
 />
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<link rel="stylesheet" href="../node_modules/tailwind-scrollbar/src/index.js">
 
 
 </head>
-<body style="font-family: 'Poppins', sans-serif;" class="bg-third">
+<body style="font-family: 'Poppins', sans-serif;" class="bg-third scrollbar-thin scrollbar-thumb-primary scrollbar-track-gray-200 overflow-y-scroll scrollbar-thumb-rounded-full scrollbar-track-rounded-full">
     <div class="px-14 mt-8">
         <nav class="flex flex-wrap justify-between items-center mx-auto">
             <div>
@@ -81,7 +82,7 @@
                                 <path d="M22 22L20 20" stroke="#858585" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                         </div>
-                        <input type="search" id="default-search" class="block p-2 pl-10 w-full text-sm text-gray-900 bg-white rounded-lg border border-white focus:ring-[#858585] focus:border-[#858585]" placeholder="Search your favorite food" required>
+                        <input type="search" id="default-search" class="block p-2 pl-10 w-full text-sm text-gray-900 bg-white rounded-lg border border-white focus:ring-[#858585] focus:border-[#858585] caret-secondary" placeholder="Search your favorite food" required>
                     </div>
                 </form>
                 <a href="#">
@@ -143,7 +144,7 @@
                 <i class="bx bxs-map bx-sm text-gray-600"></i>
                 <p class="text-gray-500">Padang, Indonesia</p>
               </div>
-              <button class="px-7 py-4 bg-four rounded-2xl flex gap-1 w-fit mt-8">
+              <button class="px-7 py-4 bg-four rounded-2xl flex gap-1 w-fit mt-8 ">
                 <h1 class="text-[16px] text-primary font-semibold">Make Reservation</h1>
                 <i class="bx bxs-chevron-right bx-sm text-primary"></i>
               </button>
@@ -171,14 +172,14 @@
         <h1 class="tetx-primary text-lg font-semibold">Why Should Choose Us?</h1>
       </div>
       <!-- Card Services -->
-      <div class="flex gap-5 px-14 pt-10">
+      <div class="flex gap-5 justify-center px-14 pt-10">
         <div class="card bg-white w-full h-fit rounded-3xl">
-          <div class="fle flex-col gap-4 pt-6 px-6">
+          <div class="flex flex-col gap-4 pt-6 px-6">
             <div class="px-3 py-3 bg-four bg-opacity-10 rounded-full w-fit h-fit mx-auto">
               <img src="../public/image/Discount.svg" alt="">
             </div>
             <h1 class="text-primary font-semibold text-lg text-center">Extra Discounts</h1>
-            <p class="text-gray-600 text-center mt-2">Get your special discount by using our reservation</p>
+            <p class="text-gray-600 text-center">Get your special discount by using our reservation</p>
           </div>
           <div class="bg-four rounded-b-3xl rounded-t-xl py-4 flex gap-1 justify-center items-center text-center mt-12">
             <h1 class="text-[16px] text-primary font-semibold">View Details</h1>
@@ -186,12 +187,12 @@
           </div>
         </div>
         <div class="card bg-white w-full h-fit rounded-3xl">
-          <div class="fle flex-col gap-4 pt-6 px-6">
+          <div class="flex flex-col gap-4 pt-6 px-6">
             <div class="px-3 py-3 bg-four bg-opacity-10 rounded-full w-fit h-fit mx-auto">
-              <img src="../public/image/Discount.svg" alt="">
+              <img src="../public/image/Group 28.svg" alt="">
             </div>
             <h1 class="text-primary font-semibold text-lg text-center">Extra Discounts</h1>
-            <p class="text-gray-600 text-center mt-2">Get your special discount by using our reservation</p>
+            <p class="text-gray-600 text-center ">Get your special discount by using our reservation</p>
           </div>
           <div class="bg-white rounded-b-3xl py-4 flex gap-1 justify-center items-center text-center mt-12">
             <h1 class="text-[16px] text-primary font-semibold">View Details</h1>
@@ -199,12 +200,12 @@
           </div>
         </div>
         <div class="card bg-white w-full h-fit rounded-3xl">
-          <div class="fle flex-col gap-4 pt-6 px-6">
+          <div class="flex flex-col gap-4 pt-6 px-6">
             <div class="px-3 py-3 bg-four bg-opacity-10 rounded-full w-fit h-fit mx-auto">
-              <img src="../public/image/Discount.svg" alt="">
+              <img src="../public/image/Group 43.svg" alt="">
             </div>
             <h1 class="text-primary font-semibold text-lg text-center">Extra Discounts</h1>
-            <p class="text-gray-600 text-center mt-2">Get your special discount by using our reservation</p>
+            <p class="text-gray-600 text-center ">Get your special discount by using our reservation</p>
           </div>
           <div class="bg-white rounded-b-3xl py-4 flex gap-1 justify-center items-center text-center mt-12">
             <h1 class="text-[16px] text-primary font-semibold">View Details</h1>
@@ -212,12 +213,12 @@
           </div>
         </div>
         <div class="card bg-white w-full h-fit rounded-3xl">
-          <div class="fle flex-col gap-4 pt-6 px-6">
+          <div class="flex flex-col gap-4 pt-6 px-6">
             <div class="px-3 py-3 bg-four bg-opacity-10 rounded-full w-fit h-fit mx-auto">
-              <img src="../public/image/Discount.svg" alt="">
+              <img src="../public/image/Group 26.svg" alt="">
             </div>
             <h1 class="text-primary font-semibold text-lg text-center">Extra Discounts</h1>
-            <p class="text-gray-600 text-center mt-2">Get your special discount by using our reservation</p>
+            <p class="text-gray-600 text-center ">Get your special discount by using our reservation</p>
           </div>
           <div class="bg-white rounded-b-3xl py-4 flex gap-1 justify-center items-center text-center mt-12">
             <h1 class="text-[16px] text-primary font-semibold">View Details</h1>
@@ -227,9 +228,76 @@
       </div>
     </section>
 
+    <section class="mt-36 px-14">
+      <div class="flex justify-between items-center">
+        <div class="">
+          <p class="text-secondary font-semibold">TOP 3 FEATURED RESTAURANT</p>
+          <h1 class="text-primary text-2xl font-semibold mt-2">Most Popular Restaurants</h1>
+          <p class="text-gray-600 mt-4 w-64 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas sint beatae eum, adipisci minus soluta!</p>
+          <button class="px-7 py-4 w-fit bg-four rounded-2xl flex gap-1 items-center mt-14">
+            <h1 class="text-primary font-semibold text-lg">View All Restaurant</h1>
+            <i class="bx bxs-chevron-right bx-sm text-primary"></i>
+          </button>
+        </div>
+        <div class="flex flex-wrap gap-2">
+          <div class="rounded-2xl relative ">
+            <img src="https://images.unsplash.com/photo-1613274554329-70f997f5789f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="" class="w-[400px] h-[475px] rounded-3xl object-cover">
+            <div class="card px-6 py-6 bg-white rounded-3xl absolute flex gap-20 left-7 bottom-6 block ">
+              <div class="flex flex-col gap-2">
+                <div class="flex items-center">
+                  <svg class="w-6 h-6 text-yellow-300" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                    </path>
+                  </svg>
+                  <span class="text-yellow-300 text-lg font-semibold ml-1">5.0</span>
+                  <span class="text-gray-600 text-lg font-normal ml-1">(7.6K+)</span>
+                </div>
+                <h1 class="text-primary text-xl font-semibold">Bind Balorant</h1>
+                <div class="flex gap-2">
+                  <i class="bx bxs-map bx-sm text-gray-600"></i>
+                  <p class="text-gray-500">Jakarta, Indonesia</p>
+                </div>
+              </div>
+              <button class="px-2 py-2 bg-four rounded-2xl self-center items-center">
+                <i class="bx bx-right-arrow-alt bx-sm pt-1 text-primary"></i>
+              </button>
+            </div>
+          </div>
+          <div class="rounded-2xl relative ">
+            <img src="https://images.unsplash.com/photo-1560624052-449f5ddf0c31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80" alt="" class="w-[214px] hover:w-[400px] h-[475px] rounded-3xl object-cover transform transition-all duration-300 ease-in-out delay-150">
+            <!-- <div class="card px-6 py-6 bg-white rounded-3xl absolute flex gap-20 left-7 bottom-6 ">
+              <div class="flex flex-col gap-2">
+                <div class="flex items-center">
+                  <svg class="w-6 h-6 text-yellow-300" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                    </path>
+                  </svg>
+                  <span class="text-yellow-300 text-lg font-semibold ml-1">5.0</span>
+                  <span class="text-gray-600 text-lg font-normal ml-1">(7.6K+)</span>
+                </div>
+                <h1 class="text-primary text-xl font-semibold">Bind Balorant</h1>
+                <div class="flex gap-2">
+                  <i class="bx bxs-map bx-sm text-gray-600"></i>
+                  <p class="text-gray-500">Jakarta, Indonesia</p>
+                </div>
+              </div>
+              <button class="px-2 py-2 bg-four rounded-2xl self-center items-center">
+                <i class="bx bx-right-arrow-alt bx-sm pt-1 text-primary"></i>
+              </button>
+            </div> -->
+          </div>
+          <div class="rounded-2xl relative ">
+            <img src="https://images.unsplash.com/photo-1601065700897-d9fa1c093f3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80" alt="" class="w-[214px] hover:w-[400px] h-[475px] rounded-3xl object-cover transform transition-all duration-300 ease-in-out delay-150">
+          </div>
+        </div>
+      </div>
+    </section>
 
-
-
+    <section class="mt-20"></section>
 
 
 
